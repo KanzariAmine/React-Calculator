@@ -1,0 +1,63 @@
+html{
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+.App {
+  text-align: center;
+  
+}
+
+body{
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input{
+  padding: 20px;
+  font-size: 20px;  
+  flex: 1 1 0; 
+  background: #eee;
+  border-style: none;
+  outline: none;
+}
+.row{
+  width: auto;
+  display: flex;
+}
+.result{
+  direction: rtl;
+  background: #c2c0c0;
+}
+.input_AC{
+  background: #c2c0c0;
+}
+.input_num{
+  background: #b1abab
+}
+
+.input_num:hover,
+.input_num:focus {
+    background: #e9edf1;
+}
+
+.input_operator{
+  background: #6b6666;
+}
+
+.input_operator:hover,
+.input_operator:focus{
+  background: #e9edf1;
+}
