@@ -18,5 +18,5 @@ npm start
 # Build for production
 npm run build
 ```
-## [Live Demo Link](https://kanzariamine.github.io/React-Countdown)
+## [Live Demo Link] (https://kanzariamine.github.io/React-Calculator)
 
